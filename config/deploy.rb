@@ -31,6 +31,10 @@ after 'deploy:setup', 'deploy:upload_config' # upload config to shared
 after 'deploy:create_symlink', 'deploy:link_config' # link the application.yml in shared
 
 namespace :deploy do
+  task :link_wp_config do
+    run("ln -nfs #{shared_path}/config/wp-config.php #{release_path}/public/wp-config.php")
+  end
+
   task :upload_config do
     application_config = File.read(Application.root + "/config/application.yml")
     run("mkdir -p #{shared_path}/config")
