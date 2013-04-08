@@ -1,0 +1,46 @@
+/*---------------------------------------------------------------- 
+  Copyright: 
+  Copyright (C) 2009 danielfajardo web
+  
+  License: 
+  GPL Software 
+  
+  Author: 
+  danielfajardo - http: //wwww.danielfajardo.com
+---------------------------------------------------------------- */
+
+
+#head, #wrap, #bottom, blockquote, img, #search-box, .notice div#icon {
+		behavior: url(wp-content/themes/dfblog/css/iepngfix.htc);
+}
+
+blockquote {
+	width: 80%;
+}
+
+#mainmenu ul, #mainmenu ul li, #mainmenu ul li a {
+	padding-top: 19px;
+	padding-bottom: 30px;
+}
+
+	#mainmenu ul li {
+		margin-left: 0px;
+		}
+		#mainmenu ul li a {
+		}
+		#mainmenu ul li.page_item,
+		#mainmenu ul li.page_item:hover,
+		#mainmenu ul li.page_item:active,
+		#mainmenu ul li.current_page_item,
+		#mainmenu ul li.page_last {
+			background: none;
+			border-left: 1px solid #cdd;
+		}
+		#mainmenu ul li.current_page_item {
+			background: #fff;
+		}
+
+#search-text {
+	margin: 1px 16px 4px 4px;
+	padding: 2px 0 6px 8px;
+}

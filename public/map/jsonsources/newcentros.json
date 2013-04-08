@@ -1,0 +1,77 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "Nombre": "Buenos Aires", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.731383, 15.605798 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Valenton", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.698880, 15.588595 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Tajumuco", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.742770, 15.573137 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "San Francisco", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.732520, 15.596564 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Esquipulas", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.709078, 15.596198 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "La Esperanza", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.765044, 15.581734 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Los Encuentros", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.773424, 15.615027 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Vista Hermosa", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.768600, 15.601181 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Caserio Mirador", "Clase": 3 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.764709, 15.602883 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "El Triunfo", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.741440, 15.600016 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Las Lomas", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.742849, 15.592569 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Guantan", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.778976, 15.593006 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Villa Linda", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.730264, 15.567593 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Nuevo Progreso", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.733066, 15.563459 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Cuatro Caminos", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.744996, 15.563861 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "La Tejera", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.748081, 15.564956 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Los Regadillos", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.756732, 15.574484 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "San Jose", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.750890, 15.572098 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Nueva Independencia", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.736870, 15.593269 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "El Rincon", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.731401, 15.589785 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "La Libertad", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.728455, 15.596444 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Los Planes", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.709080, 15.581931 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "El Cerro", "Clase": 4 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.714929, 15.602445 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Las Delicias", "Clase": 4 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.719150, 15.609038 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "El Porvenir", "Clase": 4 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.716339, 15.606161 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Villa Nueva", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.736580, 15.605915 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "San Jose", "Clase": 2 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.728309, 15.603177 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "California", "Clase": 5 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.728770, 15.610592 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "La Riconada", "Clase": 3 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.698638, 15.580488 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Buena Vista", "Clase": 4 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.714338, 15.586822 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Calvario", "Clase": 4 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.706895, 15.581400 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Cemeterio", "Clase": 4 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.739510, 15.572213 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Los Meridas", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.741036, 15.570345 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "El Durazno", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.716101, 15.566711 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "La Reforma", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.772644, 15.584418 ] ] } }
+,
+{ "type": "Feature", "properties": { "Nombre": "Cabecera Municipal", "Clase": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -91.717768, 15.605546 ] ] } }
+
+]
+}

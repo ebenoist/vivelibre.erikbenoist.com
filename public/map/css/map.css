@@ -1,0 +1,184 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	margin: 0;
+	font: 12px/1.9 "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #333;
+	background-color: #fff;
+	text-align: center;
+}
+
+
+svg {
+  display: block;
+  overflow: hidden;
+}
+
+header {
+	text-align: left;
+	font-size: 30px;
+	border-bottom: solid 1px;
+	font-variant: small-caps; 
+	border-bottom: solid 1px;
+
+}
+
+footer {
+	float: left;
+	width: 855px;
+	border-top: solid 1px;
+	display: block;
+	text-align: left;
+}
+
+div#map {
+/*border: solid 1px #ccc;*/
+ background: #FFFFFF;
+  height: 480px;
+  width: 600px;
+  float: left;
+  border-right: dashed 1px;
+}
+
+#container {
+width: 855px;
+margin-left:45px;
+background-color: #fff;
+}
+
+
+h1 {
+font-variant: small-caps; 
+font-size: 14px;
+
+}
+comtitle {
+font-variant: small-caps; 
+font-size: 18px;
+margin-bottom: 10px;
+text-align: right;
+
+
+}
+#infobox {
+text-align: left;
+width: 200px;
+float: right;
+margin-right: 50px;	
+display: block;
+height: 480px;
+margin-bottom: 10px;
+}
+
+
+#centros text {
+
+}
+#rios path {
+	fill: none;
+  stroke: #3300FF;
+  stroke-width: 1px;
+  opacity: .6;
+}
+
+
+#centros path
+{
+	stroke: #3300FF;
+  	stroke-width: 1.5px;
+}
+
+#comunidadesfill path 
+{
+	fill: #6699cc;
+	stroke: #FFFFFF;
+  	stroke-width: 3px;
+  	opacity: .6;
+
+}
+
+#huehue path
+{
+	fill: none;
+	stroke: grey;
+	stroke-width: .5px;
+}
+#comunidades path 
+{
+	fill: #ccff99;
+	stroke: #FFFFFF;
+  	stroke-width: 1.5px;
+  	opacity: .1;
+}
+#bosque path
+{
+	fill: #66cc66;
+}
+
+#cantinil path 
+{
+	fill: #FFFFFF;
+	stroke: #FFFFFF;
+  	stroke-width: 1.5px;
+  	opacity:.6;
+
+}
+
+#muni path
+{
+	fill: #FFFFFF;
+	stroke: #999999;
+  	stroke-width: 1.5px;
+}
+
+#caminos path 
+{
+	fill: none;
+	stroke: #999999;
+  stroke-width: 1px;
+  opacity: .6;
+}
+
+
+
+.compass .back {
+  fill: #eee;
+  fill-opacity: .8;
+}
+
+.compass .fore {
+  stroke: #999;
+  stroke-width: 1.5px;
+}
+
+.compass rect.back.fore {
+  fill: #999;
+  fill-opacity: .3;
+  stroke: #eee;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.compass .direction {
+  fill: none;
+}
+
+.compass .chevron {
+  fill: none;
+  stroke: #999;
+  stroke-width: 5px;
+}
+
+.compass .zoom .chevron {
+  stroke-width: 4px;
+}
+
+.compass .active .chevron, .compass .chevron.active {
+  stroke: #fff;
+}
+
+.compass.active .active .direction {
+  fill: #999;
+}
