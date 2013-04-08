@@ -28,7 +28,9 @@ before 'deploy:setup', 'rvm:install_rvm'   # install RVM
 before 'deploy:setup', 'rvm:install_ruby'  # install Ruby and create gemset, or:
 before 'deploy:setup', 'rvm:create_gemset' # only create gemset
 after 'deploy:setup', 'deploy:upload_config' # upload config to shared
+
 after 'deploy:create_symlink', 'deploy:link_config' # link the application.yml in shared
+after 'deploy:create_symlink', 'deploy:link_wp_config' # link wp-config.php
 
 namespace :deploy do
   task :link_wp_config do
