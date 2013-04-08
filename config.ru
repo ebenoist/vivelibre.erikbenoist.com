@@ -1,14 +1,7 @@
-use Rack::Static,
-  :urls => ["/images", "/js", "/css"],
-  :root => "public"
+require 'rack-rewrite'
+require 'rack-legacy'
 
-run lambda { |env|
-  [
-    200,
-    {
-      'Content-Type'  => 'text/html',
-      'Cache-Control' => 'public, max-age=86400'
-    },
-    File.open('public/index.html', File::RDONLY)
-  ]
-}
+use Rack::Legacy::Php, "public/"
+use Rack::Legacy::Cgi, "public/cgi-bin"
+run Rack::File.new("public/")
+
