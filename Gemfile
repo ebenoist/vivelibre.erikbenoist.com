@@ -7,7 +7,6 @@ gem "rack"
 gem "rake"
 gem "rack-legacy"
 gem "rack-rewrite"
-gem "rvm-capistrano"
 
 group :test do
   gem "rspec"

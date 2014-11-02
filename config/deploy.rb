@@ -1,7 +1,6 @@
 require "./initialize"
 require "application"
 require "bundler/capistrano"
-require "rvm/capistrano"
 
 #Values are set in config/application.yml
 set :application, Application.config["application_name"]
@@ -53,6 +52,6 @@ namespace :deploy do
   end
 
   task :restart do
-    run("cd #{current_path} && bundle exec rake restart")
+    # run("cd #{current_path} && bundle exec rake restart")
   end
 end
