@@ -14,10 +14,10 @@ virtual_host_config = <<-CONFIG
               listen   80;
               server_name #{Application.config["domain"]};
 
-              access_log /home/ubuntu/#{Application.config["application_name"]}/current/log/access.log;
-              error_log /home/ubuntu/#{Application.config["application_name"]}/current/log/error.log;
+              access_log /home/deploy/#{Application.config["application_name"]}/current/log/access.log;
+              error_log /home/deploy/#{Application.config["application_name"]}/current/log/error.log;
 
-              root   /home/ubunut/#{Application.config["application_name"]}/current/public/;
+              root   /home/deploy/#{Application.config["application_name"]}/current/public/;
               index  index.html;
 
               location / {
